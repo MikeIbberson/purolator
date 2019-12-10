@@ -1,0 +1,5 @@
+// deps and builds
+node_modules
+
+// development
+.env

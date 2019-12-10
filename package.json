@@ -1,0 +1,29 @@
+{
+  "name": "purolator-node",
+  "version": "1.0.0",
+  "description": "NodeJS wrapper for Purolator eShip services",
+  "main": "lib/index.js",
+  "author": "Mike <mibberson@3merge.ca>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-node-3merge": "1.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "22.17.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.1",
+    "prettier": "1.18.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "lodash.get": "^4.4.2",
+    "soap": "^0.30.0"
+  },
+  "scripts": {
+    "dev": "nodemon lib/index.js"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Shipment": {
+    "SenderInformation": {
+      "Address": {
+        "Name": "Aaron Summer",
+        "StreetNumber": "1234",
+        "StreetName": "Main Street",
+        "City": "Ajax",
+        "Province": "ON",
+        "Country": "CA",
+        "PostalCode": "L1S3Z2",
+        "PhoneNumber": {
+          "CountryCode": "1",
+          "AreaCode": "905",
+          "Phone": "5555555"
+        }
+      }
+    },
+    "ReceiverInformation": {
+      "Address": {
+        "Name": "Aaron Summer",
+        "StreetNumber": "2245",
+        "StreetName": "Douglas Road",
+        "City": "Burnaby",
+        "Province": "BC",
+        "Country": "CA",
+        "PostalCode": "V5C1A1",
+        "PhoneNumber": {
+          "CountryCode": "1",
+          "AreaCode": "604",
+          "Phone": "2982181"
+        }
+      }
+    },
+    "ShipmentDate": "2020-01-01",
+    "PackageInformation": {
+      "ServiceID": "PurolatorExpress",
+      "TotalWeight": {
+        "Value": "40",
+        "WeightUnit": "lb"
+      },
+      "TotalPieces": "1"
+    },
+    "PaymentInformation": {
+      "PaymentType": "Sender",
+      "RegisteredAccountNumber": "9999999999",
+      "BillingAccountNumber": "9999999999"
+    },
+    "PickupInformation": {
+      "PickupType": "DropOff"
+    }
+  },
+  "ShowAlternativeServicesIndicator": "true"
+}

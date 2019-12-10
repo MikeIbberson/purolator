@@ -1,0 +1,8 @@
+{
+  "TrackPackageByReferenceSearchCriteria": {
+    "Reference": "RMA125",
+    "BillingAccountNumber": "9999999999",
+    "ShipmentFromDate": "2009-04-22",
+    "ShipmentToDate": "2009-04-22"
+  }
+}

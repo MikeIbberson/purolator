@@ -1,0 +1,15 @@
+{
+  "BillingAccountNumber": "9999999999",
+  "SenderAddress": {
+    "City": "Mississauga",
+    "Province": "ON",
+    "Country": "CA",
+    "PostalCode": "L4W5M8"
+  },
+  "ReceiverAddress": {
+    "City": "Burnaby",
+    "Province": "BC",
+    "Country": "CA",
+    "PostalCode": "V5C5A9"
+  }
+}
