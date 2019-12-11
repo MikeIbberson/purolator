@@ -17,6 +17,9 @@ jobs:
         yarn install
         yarn lint
         yarn test
+      env:
+        PUROLATOR_KEY: ${{ secrets.PUROLATOR_KEY }}
+        PUROLATOR_KEY_PASSWORD: ${{ secrets.PUROLATOR_KEY_PASSWORD }}
     - name: Coveralls 
       uses: coverallsapp/github-action@v1.0.1
       with:

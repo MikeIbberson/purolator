@@ -26,6 +26,8 @@
     "xml2js": "^0.4.22"
   },
   "scripts": {
-    "dev": "nodemon lib/index.js"
+    "dev": "nodemon lib/index.js",
+    "lint": "eslint lib/* --fix",
+    "test": "jest --collectCoverage"
   }
 }
