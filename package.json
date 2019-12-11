@@ -21,7 +21,9 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "lodash.get": "^4.4.2",
-    "soap": "^0.30.0"
+    "soap": "^0.30.0",
+    "validator": "^12.1.0",
+    "xml2js": "^0.4.22"
   },
   "scripts": {
     "dev": "nodemon lib/index.js"
